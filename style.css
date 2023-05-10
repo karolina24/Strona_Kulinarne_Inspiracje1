@@ -253,9 +253,12 @@ border-bottom: 1px solid #6a6a6a;
 
 /**@media zmiany**/
 
+
   /* For mobile devices */
   @media screen and (max-width: 600px) {
-    
+    .instruction{
+      margin-bottom:500px !important ;
+    }
     .topnav a:not(:third-child) {
       display: none;
     }
@@ -303,10 +306,15 @@ border-bottom: 1px solid #6a6a6a;
       width: 100px;
     }
 
+
 }
+
 /**tablet**/
 @media screen and (max-width: 850px) {
+  .instruction{
     
+    margin-bottom:100px !important ;
+  }
     .fa-bars {
      margin-top:40px;
       }
@@ -493,7 +501,6 @@ figure {
   height: 20px;
   width: 80%;
   padding: 30px;
- 
   padding-bottom: 70px;
   margin:auto;
 }
@@ -518,6 +525,7 @@ a {
 
 .inst{
   text-align: center;
+  
 }
 
 @media (min-width: 1200px){
